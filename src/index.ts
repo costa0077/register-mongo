@@ -4,16 +4,18 @@ import handlerError from "./middleware/handler-error";
 import influencersRouter from "./router/influencers-router";
 
 /**
-ATIVIDADE PRÁTICA AVALIATIVA
-Turma: 3B2
-Alunos:
-Gabriel Diniz Carreiro
-Felipe Costa Lisboa
-
-para iniciar o projeto e para rodar o servidor 
- npx tsc
- node dist/index.js
- nome da extensão thunder client
+ * para iniciar o projeto e para rodar o servidor 
+npx tsc
+node dist/index.js
+nome da extensão thunder client
+mongod --dbpath <diretório de dados> // exemplo da sintaxe
+mongod --dbpath C:\\Users\\zzz\\Documentos\\mongo-data
+{
+  "nome": "testeeeeee",
+  "numerosSeguidores": 2000,
+  "principalRedeSocial": "YouTube"
+}
+formato correto para adicionar o no bd
 */
 
 
